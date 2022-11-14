@@ -1,6 +1,7 @@
 package uk.co.conjure.testrobots
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import org.junit.After
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -28,4 +29,7 @@ class ExampleInstrumentedTest : BaseTest() {
             THEN { the_greeting_message_is_visible() }
         }
     }
+
+    @After
+    fun tearDown() = cleanUp()
 }

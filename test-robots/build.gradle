@@ -36,7 +36,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'uk.co.conjure'
                 artifactId = 'test-robots'
-                version = '1.0.0-alpha03'
+                version = '1.0.0-alpha04'
             }
         }
     }
