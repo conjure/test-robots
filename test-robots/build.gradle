@@ -30,6 +30,23 @@ android {
     }
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                // Applies the component for the release build variant.
+                from components.release
+
+                // You can then customize attributes of the publication as shown below.
+                groupId = 'uk.co.conjure'
+                artifactId = 'test-robots'
+                version = '1.0.0-alpha01'
+            }
+        }
+    }
+}
+
 dependencies {
     implementation 'junit:junit:4.13.2'
     implementation 'androidx.test.ext:junit:1.1.3'
