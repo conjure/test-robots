@@ -36,7 +36,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'uk.co.conjure'
                 artifactId = 'test-robots'
-                version = '1.0.0-alpha01'
+                version = '1.0.0-alpha03'
             }
         }
     }
@@ -44,6 +44,4 @@ afterEvaluate {
 
 dependencies {
     implementation 'junit:junit:4.13.2'
-    implementation 'androidx.test.ext:junit:1.1.3'
-    implementation 'androidx.test.espresso:espresso-core:3.5.0'
 }
