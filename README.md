@@ -34,7 +34,7 @@ Then add the test-robots dependency for instrumented tests in the module you wan
 
 ```gradle
 dependencies {
-	androidTestImplementation 'uk.co.conjure:test-robots:1.0.0-alpha01'
+	androidTestImplementation 'uk.co.conjure:test-robots:1.0.0-alpha02'
 }
 ```
 
@@ -42,7 +42,7 @@ or
 
 ```gradle
 dependencies {
-	androidTestImplementation 'com.github.conjure:test-robots:1.0.0-alpha01'
+	androidTestImplementation 'com.github.conjure:test-robots:1.0.0-alpha02'
 }
 ```
 
